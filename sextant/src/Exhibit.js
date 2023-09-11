@@ -5,7 +5,6 @@ class Exhibit extends Component {
     render() {
         return (
             <div className={this.props.class}>
-
             <div className="card">
                 <h2 className="card-header">{this.props.name}</h2>
                 <div className="card-body">
@@ -13,6 +12,7 @@ class Exhibit extends Component {
                 </div>
             </div>
             </div>
+           
         );
     }
 }
